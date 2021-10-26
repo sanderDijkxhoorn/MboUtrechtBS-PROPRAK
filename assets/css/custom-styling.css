@@ -1,3 +1,20 @@
-MboUtrecht3backgroundimg {
+.MboUtrecht3backgroundimg {
     background-image: url('/assets/img/MboUtrecht3.jpg');
+}
+
+.BlackNSolidB {
+    /*color: black;*/
+    border-style: solid;
+}
+
+.BackgroundimgMBO2 {
+    background-image: url('/assets/img/best-background-for-website-02.jpg');
+}
+
+.alignJustify {
+    text-align: justify;
+}
+
+.BottomRem {
+    margin-bottom: 1rem;
 }
