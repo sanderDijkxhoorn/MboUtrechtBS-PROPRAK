@@ -1,31 +1,28 @@
-.faq {
-  background-color: #e4e4e4;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
+.accordion-item {
+  background-color: #3d57ac;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
 }
 
-.on, .faq:hover {
-  background-color: #555;
+.accordion-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
-.panel {
-  display: none;
-  padding: 0px 18px;
-  background-color: white;
-  padding-top: 15px;
+.answer {
+  max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
+  position: relative;
+  background-color: #3d57ac;
 }
 
-.faqelement {
-  margin: auto;
-  float: initial;
-  margin-bottom: 20px;
+.accordion-item:target .answer {
+  max-height: 100%;
+}
+
+.accordion-item a.accordion-link {
+  color: rgb(0, 0, 0);
+  font-size: large;
 }
